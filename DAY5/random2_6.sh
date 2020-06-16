@@ -1,0 +1,16 @@
+
+#!/bin/bash -x 
+
+
+
+for i in `seq 10`
+
+do
+	n=$RANDOM%6+1
+	k=$RANDOM%6+1
+
+
+	i=$(($n + $k))
+	echo $i
+
+done
